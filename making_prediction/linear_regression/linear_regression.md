@@ -39,9 +39,13 @@
 
 ### Гипотеза линейной регрессии
 
-При построении линейной регрессии проверяется нулевая гипотеза о том, что генеральный угловой коэффициент линии регрессии β равен нулю.
+При построении линейной регрессии проверяется нулевая гипотеза о том, что генеральный угловой коэффициент линии регрессии ```β``` равен нулю.
 
 Если угловой коэффициент линии равен нулю, между  и  нет линейного соотношения: изменение ```x``` не влияет на ```y```. Для тестирования нулевой гипотезы о том, что истинный угловой коэффициент β равен 0 можно воспользоваться  алгоритмом :
 
 Вычислить статистику критерия, равную отношению ```b/SE(b)~t(n-2)```, которая подчиняется t-распределенею с (n-2) степенями свободы, где SE(b) - стандартная ошибка коэффициента b. 
 ![alt text](http://statistica.ru/upload/medialibrary/provedenie-analiza-lineinoy-regressii/46.GIF)
+![alt text](http://statistica.ru/upload/medialibrary/provedenie-analiza-lineinoy-regressii/48.GIF)
+![alt text](http://statistica.ru/upload/medialibrary/provedenie-analiza-lineinoy-regressii/47.GIF) 
+
+Если достигнутый уровень значимости ![alt text](http://statistica.ru/upload/medialibrary/provedenie-analiza-lineinoy-regressii/32.GIF), нулевая гипотеза отклоняется. Можно рассчитать 95% доверительный интервал ![alt text](http://statistica.ru/upload/medialibrary/provedenie-analiza-lineinoy-regressii/35.GIF). Этот интервал содержит генеральный угловой коэффициент с вероятностью 95%. 
